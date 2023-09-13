@@ -15,11 +15,11 @@ $(document).ready(function () {
   var funcionTiempo; //Contiene el control del tiempo.
   generarUniverso();
 
-  $(".tick").click(function (event) {
-    event.preventDefault();
-    console.log("Se avanza un tick en el tiempo.");
-    hacerTick();
-  });
+  // $(".tick").click(function (event) {
+  //   event.preventDefault();
+  //   console.log("Se avanza un tick en el tiempo.");
+  //   hacerTick();
+  // });
 
   $(".iniciar").click(function (event) {
     event.preventDefault();
